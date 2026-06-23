@@ -1,0 +1,13 @@
+services:
+  kiraat-ilmi-atlasi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kiraat-ilmi-atlasi
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+    ports:
+      - "3017:3000"

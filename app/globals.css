@@ -150,7 +150,7 @@ main {
 
 .hero {
   align-items: end;
-  background-image: url("/hero-atlas.png");
+  background-image: url("/hero.jpg");
   background-position: center;
   background-size: cover;
   color: var(--cream-light);

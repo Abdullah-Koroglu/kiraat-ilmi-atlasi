@@ -38,6 +38,9 @@ export default function SitePage({ content }: { content: SiteContent }) {
       </nav>
 
       <section id="hero" className="hero">
+        <div className="hero-media" aria-hidden="true">
+          <Image src="/hero.jpg" alt="" fill priority sizes="100vw" />
+        </div>
         <div className="hero-overlay" />
         <div className="hero-content">
           <p className="kicker">{content.kicker}</p>

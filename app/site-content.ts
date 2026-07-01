@@ -479,7 +479,7 @@ export const siteContent: Record<Locale, SiteContent> = {
       "Kıraat İlmi Atlası, klasik tabakat birikimini dijital yöntemlerle yeniden yorumlayan disiplinler arası bir ekip çalışması olarak şekillenmektedir.",
     teamSections: sharedTeam.tr,
     contact: {
-      phoneLabel: "Tel",
+      phoneLabel: "Telefon",
       phoneValue: "+90 216 777 47 64",
       addressLabel: "Adres",
       addressValue:

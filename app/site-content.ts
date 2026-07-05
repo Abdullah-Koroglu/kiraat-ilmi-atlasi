@@ -91,7 +91,7 @@ const sharedTeam = {
           name: "Arş. Gör. Dr. Eren Pilgir",
           role: "Yürütücü",
           affiliation: "Marmara Üniversitesi İlahiyat Fakültesi",
-          image: "/people/Eren PİLGİR.jpeg",
+          image: "/people/eren.jpeg",
         },
       ],
     },
